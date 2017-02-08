@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <link rel="stylesheet" href="./revealjs/css/reveal.css">
-    <link rel="stylesheet" href="./revealjs/css/theme/sky.css" id="theme">
+    <link rel="stylesheet" href="./revealjs/css/theme/beige.css" id="theme">
 
     <!-- For syntax highlighting -->
     <link rel="stylesheet" href="./revealjs/lib/css/zenburn.css">
@@ -25,6 +25,7 @@
         <div class="slides">
             <section>
                 <h1>AGILE</h1>
+                <hr />
                 <h2>Introduction</h2>
                 <h3>@Conserto</h3>
                 <p>
@@ -33,10 +34,13 @@
             </section>
 
             <section>
-                <h2>QUOI ?</h2>
-                <p>
-                    Blah blah blah ...
-                </p>
+                <section>test 1</section>
+                <section>test 2</section>
+                <section>test 3</section>
+            </section>
+
+            <section>
+                TEST ok
             </section>
         </div>
     </div>
@@ -48,13 +52,13 @@
         // Full list of configuration options available here:
         // https://github.com/hakimel/reveal.js#configuration
         Reveal.initialize({
-            controls    : true,
+            controls    : false,
             progress    : true,
-            history     : true,
+            mouseWheel  : true,
+            history     : false,
             center      : true,
-            theme       : Reveal.getQueryHash().theme, // available themes are in /css/theme
-            transition  : Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
-            dependencies: [ // Optional libraries used to extend on reveal.js
+            transition  : 'linear',
+            dependencies: [
                 {
                     src: 'revealjs/lib/js/classList.js',
                     condition: function() {
