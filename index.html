@@ -1,0 +1,102 @@
+<!doctype html>
+
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Conserto - Agile</title>
+
+    <meta name="description" content="Présentation de la méthodologie Agile">
+    <meta name="author" content="Laurent Vergé">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="./revealjs/css/reveal.css">
+    <link rel="stylesheet" href="./revealjs/css/theme/sky.css" id="theme">
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="./revealjs/lib/css/zenburn.css">
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h1>AGILE</h1>
+                <h2>Introduction</h2>
+                <h3>@Conserto</h3>
+                <p>
+                    <small>Created by Laurent Vergé</a> / <a href="http://twitter.com/monsieurluge">@monsieurluge</a></small>
+                </p>
+            </section>
+
+            <section>
+                <h2>QUOI ?</h2>
+                <p>
+                    Blah blah blah ...
+                </p>
+            </section>
+        </div>
+    </div>
+
+    <script src="./revealjs/lib/js/head.min.js"></script>
+    <script src="./revealjs/js/reveal.js"></script>
+
+    <script>
+        // Full list of configuration options available here:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls    : true,
+            progress    : true,
+            history     : true,
+            center      : true,
+            theme       : Reveal.getQueryHash().theme, // available themes are in /css/theme
+            transition  : Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+            dependencies: [ // Optional libraries used to extend on reveal.js
+                {
+                    src: 'revealjs/lib/js/classList.js',
+                    condition: function() {
+                        return !document.body.classList;
+                    }
+                },
+                {
+                    src: 'revealjs/plugin/markdown/marked.js',
+                    condition: function() {
+                        return !!document.querySelector('[data-markdown]');
+                    }
+                },
+                {
+                    src: 'revealjs/plugin/markdown/markdown.js',
+                    condition: function() {
+                        return !!document.querySelector('[data-markdown]');
+                    }
+                },
+                {
+                    src: 'revealjs/plugin/highlight/highlight.js',
+                    async: true,
+                    callback: function() {
+                        hljs.initHighlightingOnLoad();
+                    }
+                },
+                {
+                    src: 'revealjs/plugin/zoom-js/zoom.js',
+                    async: true,
+                    condition: function() {
+                        return !!document.body.classList;
+                    }
+                },
+                {
+                    src: 'revealjs/plugin/notes/notes.js',
+                    async: true,
+                    condition: function() {
+                        return !!document.body.classList;
+                    }
+                }
+            ]
+        });
+    </script>
+</body>
+
+</html>
