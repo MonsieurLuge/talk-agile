@@ -1,5 +1,12 @@
-# talk-agile
-Présentation Agile pour le point technique Conserto de mars 2017
+# Talks (fr)
+
+Présentations dispensées lors de soirées agence, ou points techniques.
+
+## Liste des présentations
+
+### AGILE 2017
+
+Présentation de la méthodologie AGILE.
 
 ## Installation
 
