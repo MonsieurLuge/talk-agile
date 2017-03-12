@@ -19,15 +19,15 @@
  *********************************************/
 body {
   background: #e88fb6; /* Old browsers */
-  background: -moz-radial-gradient(center, ellipse cover, #e88fb6 0%, #ec579b 44%, #e86aa3 100%); /* FF3.6-15 */
-  background: -webkit-radial-gradient(center, ellipse cover, #e88fb6 0%,#ec579b 44%,#e86aa3 100%); /* Chrome10-25,Safari5.1-6 */
-  background: radial-gradient(ellipse at center, #e88fb6 0%,#ec579b 44%,#e86aa3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
+  background: -moz-radial-gradient(center, ellipse cover, #e86aa3 40%, #e88fb6 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, #e86aa3 40%, #e88fb6 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, #e86aa3 40%, #e88fb6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
 
 .reveal {
   font-family: "Quote", sans-serif;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: normal;
-  color: #333; }
+  color: #ffffff; }
 
 ::selection {
   color: #ec579b;
@@ -262,40 +262,41 @@ body {
  *********************************************/
 .reveal .controls .navigate-left,
 .reveal .controls .navigate-left.enabled {
-  border-right-color: #8b743d; }
+  border-right-color: rgba(255, 255, 255, 0.6); }
 
 .reveal .controls .navigate-right,
 .reveal .controls .navigate-right.enabled {
-  border-left-color: #8b743d; }
+  border-left-color: rgba(255, 255, 255, 0.6); }
 
 .reveal .controls .navigate-up,
 .reveal .controls .navigate-up.enabled {
-  border-bottom-color: #8b743d; }
+  border-bottom-color: rgba(255, 255, 255, 0.6); }
 
 .reveal .controls .navigate-down,
 .reveal .controls .navigate-down.enabled {
-  border-top-color: #8b743d; }
+  border-top-color: rgba(255, 255, 255, 0.6); }
 
 .reveal .controls .navigate-left.enabled:hover {
-  border-right-color: #c0a86e; }
+  border-right-color: #ffffff; }
 
 .reveal .controls .navigate-right.enabled:hover {
-  border-left-color: #c0a86e; }
+  border-left-color: #ffffff; }
 
 .reveal .controls .navigate-up.enabled:hover {
-  border-bottom-color: #c0a86e; }
+  border-bottom-color: #ffffff; }
 
 .reveal .controls .navigate-down.enabled:hover {
-  border-top-color: #c0a86e; }
+  border-top-color: #ffffff; }
 
 /*********************************************
  * PROGRESS BAR
  *********************************************/
 .reveal .progress {
-  background: rgba(0, 0, 0, 0.2); }
+  background-color: rgba(255, 255, 255, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.6);}
 
 .reveal .progress span {
-  background: #8b743d;
+  background: #ffffff;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
