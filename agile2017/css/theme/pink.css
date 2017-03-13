@@ -4,16 +4,6 @@
  * Copyright (C) 2017 Laurent Vergé
  */
 
-@font-face {
-    font-family: Quote;
-    src: url('../../font/Quote/Quote.ttf');
-}
-
-@font-face {
-    font-family: WindowMarkers;
-    src: url('../../font/Window Markers/WindowMarkers.ttf');
-}
-
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
@@ -24,8 +14,8 @@ body {
   background: radial-gradient(ellipse at center, #e86aa3 40%, #e88fb6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ }
 
 .reveal {
-  font-family: "Quote", sans-serif;
-  font-size: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 42px;
   font-weight: normal;
   color: #ffffff; }
 
@@ -55,7 +45,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #ffffff;
-  font-family: "WindowMarkers", Impact, sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   font-weight: normal;
   line-height: 1.2;
   letter-spacing: normal;
