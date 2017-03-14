@@ -209,14 +209,14 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #944de6;
+  color: #ffb497;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #6349e4;
+  color: #fdd7c8;
   text-shadow: none;
   border: none; }
 
@@ -282,8 +282,8 @@ body {
  * PROGRESS BAR
  *********************************************/
 .reveal .progress {
-  background-color: rgba(255, 255, 255, 0.2);
-  border-top: 1px solid rgba(255, 255, 255, 0.6);}
+  height: 5px;
+  background-color: rgba(255, 255, 255, 0.2);}
 
 .reveal .progress span {
   background: #ffffff;
