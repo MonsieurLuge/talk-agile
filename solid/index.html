@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <link rel="stylesheet" href="../revealjs/css/reveal.css">
-    <link rel="stylesheet" href="../revealjs/css/theme/league.css" id="theme">
+    <link rel="stylesheet" href="../revealjs/css/theme/beige.css" id="theme">
 
     <!-- For syntax highlighting -->
     <link rel="stylesheet" href="../revealjs/lib/css/zenburn.css">
@@ -32,7 +32,19 @@
 
             <section>
                 <section>
-                    <h2>Pourquoi ?</h2>
+                    <h2>POO</h2>
+                    <em>programmation orientée objets</em>
+                    <p class="fragment fade-in">
+                        &ldquo;OOP to me means only <span class="fragment highlight-blue">messaging</span>, <span class="fragment highlight-blue">local retention and protection</span> and <span class="fragment highlight-blue">hiding of state process</span>, and extreme <span class="fragment highlight-blue">late-binding</span> of all things&rdquo; &mdash;Alan Kay
+                    </p>
+                </section>
+                <section>
+                    <h3>Messaging</h3>
+                    <p>Indépendance des objets :</p>
+                    <ul>
+                        <li>les objets ne savent pas à l'avance quel message va leur être transmis (appel des méthodes exposées) ni dans quel ordre</li>
+                        <li>c'est lors de l'exécution que l'objet décide quoi faire du message reçu</li>
+                    </ul>
                 </section>
             </section>
         </div>
@@ -47,7 +59,7 @@
         Reveal.initialize({
             controls    : false,
             progress    : true,
-            mouseWheel  : true,
+            mouseWheel  : false,
             history     : false,
             center      : true,
             transition  : 'linear',
